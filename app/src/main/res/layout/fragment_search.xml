@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/simple_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/simple_search"
+        android:textSize="30sp"
+        android:layout_margin="10dp"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:queryHint="Type title, author or ISBN"
+        android:hint="@string/simple_search_hint"
+        android:paddingLeft="10dp"
+        android:id="@+id/sv_book"
+        />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:backgroundTint="@color/fragmentButton"
+            android:textColor="#ffffff"
+            android:text="@string/search_button"
+            android:id="@+id/b_search"/>
+        </LinearLayout>
+
+    <TextView
+        android:text="@string/find_by_cover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cover_search"
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:text="@string/take_photo_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/fragmentButton"
+        android:textColor="#ffffff"
+        android:id="@+id/takephoto_search"
+        android:gravity="left|center_vertical"
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lv_searchResults"
+        android:scrollbarAlwaysDrawVerticalTrack="false" />
+
+</LinearLayout>
