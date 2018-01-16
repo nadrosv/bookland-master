@@ -111,7 +111,7 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="@string/transaction_message"
+            android:text="@string/transaction_message"
             android:ems="10"
             android:id="@+id/et_message"
             android:layout_weight="16" />

@@ -75,21 +75,19 @@
         android:layout_height="wrap_content"
         android:elevation="1dp">
 
-<!--
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Take picture"
             android:id="@+id/read_text"
             android:layout_weight="1" />
--->
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Search"
             android:id="@+id/b_search_gr"
             android:layout_weight="1" />
-<!--
+
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -105,7 +103,6 @@
             android:id="@+id/use_flash"
             android:checked="false"
             android:layout_weight="1" />
--->
     </LinearLayout>
 
 
