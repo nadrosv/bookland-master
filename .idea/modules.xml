@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BookShare.iml" filepath="$PROJECT_DIR$/BookShare.iml" />
+      <module fileurl="file://C:\Users\nadro\AndroidStudioProjects\bookland-master\BookShare.iml" filepath="C:\Users\nadro\AndroidStudioProjects\bookland-master\BookShare.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bookland.iml" filepath="$PROJECT_DIR$/bookland.iml" />
+      <module fileurl="file://C:\Users\nadro\AndroidStudioProjects\bookland-master\bookland.iml" filepath="C:\Users\nadro\AndroidStudioProjects\bookland-master\bookland.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookland-master.iml" filepath="$PROJECT_DIR$/bookland-master.iml" />
     </modules>
   </component>
 </project>
